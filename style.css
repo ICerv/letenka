@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid gray;
+  box-shadow: 5px 5px 3px grey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px;
+  line-height: 1.25rem;
+  background-color: rgb(158, 205, 205);
+
+}
+
+.container {
+  flex-basis: 100%;
+}
+
+h1 {
+  padding: 10px;
+}
